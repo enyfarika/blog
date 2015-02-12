@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	
+	<config>
+		<mods 
+			
+		navPadding="25" 
+		myLogo = "images/logomegaluh.png" 
+		backgroundMusic = "yes"
+		myMusic = "audio/nkp.mp3"
+		
+		navActiveColor = "0xFFFFFF"
+		navRollOverColor = "0xff7566"
+		navRoundedCornerRadius = "0"
+		
+		navBGOutlineColor = "0xff0000"
+		navBGtopGradientColor = "0xa91100"
+		navBGbottomGradientColor = "0x5d0a00"
+		
+		subnavActiveColor = "0xcccccc"
+		subnavRollOverColor = "0xff0000"
+		subnavRoundedCornerRadius = "0"
+		
+		subnavBGOutlineColor = "0x666666"
+		subnavBGtopGradientColor = "0x333333"
+		subnavBGbottomGradientColor = "0x121212"
+		
+		footerColor = "0x000000"
+		navFontSize = "8"
+		subnavFontSize = "8"
+		logoX = "25"
+		logoY = "40"
+		
+		/>
+		<footerInfo><![CDATA[ Copyright 2014 SMPN 1 Megaluh, All Rights Reserved.   <a href="http://www.smpn1megaluh.com/">www.smpn1megaluh.com</a>]]></footerInfo>
+	</config>
+	
+	<navigation>
+		<link name="HAL UTAMA" module="modules/slideshow/slideshow.swf" data="modules/slideshow/slideshow.xml" background="images/3.jpg" />
+		<link name="SAMBUTAN" module="modules/text-simple/text.swf" data="modules/text-simple/about.xml" background="images/3.jpg">
+			<sublink name="Team" module="modules/staff/staff.swf" data="modules/staff/staff.xml" background="images/3.jpg" />
+			<sublink name="Text + Image" module="modules/text-image/text.swf" data="modules/text-image/about.xml" background="images/3.jpg" />
+			<sublink name="Text + Sections" module="modules/text-sections/text.swf" data="modules/text-sections/text.xml" background="images/3.jpg" />
+			<sublink name="Simple News Module" module="modules/news-simple/news.swf" data="modules/news-simple/news.xml" background="images/3.jpg" />
+		</link>
+		<link name="GURU & STAFF" module="modules/projects/projects.swf" data="modules/projects/projects.xml" background="images/3.jpg" />
+		<link name="GALERI KITA" module="modules/galleries-traditional/gallery-traditional.swf" data="modules/galleries-traditional/gallery.xml" background="images/3.jpg">
+			<sublink name="Scrolling Gallery" module="modules/galleries-scrolling/gallery-scrolling.swf" data="modules/galleries-scrolling/gallery1.xml" background="images/3.jpg" />
+			<sublink name="Video Gallery" module="modules/galleries-video/gallery-video.swf" data="modules/galleries-video/videos.xml" background="images/3.jpg" />
+			<sublink name="Landscape" module="modules/galleries-traditional/gallery-traditional.swf" data="modules/galleries-traditional/landscape.xml" background="images/3.jpg" />
+			<sublink name="Animals" module="modules/galleries-traditional/gallery-traditional.swf" data="modules/galleries-traditional/animals.xml" background="images/3.jpg" />
+			<sublink name="Architecture" module="modules/galleries-traditional/gallery-traditional.swf" data="modules/galleries-traditional/architecture.xml" background="images/3.jpg" />
+		</link>
+		<link name="FOTO MEDIA" module="album.swf" data="" background="images/3.jpg" />
+		<link name="MEDIA PEMBELAJARAN" module="3d.swf" data="thumbnail.xml" background="images/3.jpg" />
+		<link name="MUSIK" module="modules/mp3player/mp3player.swf" data="modules/mp3player/album1.xml" background="images/3.jpg" />
+		<link name="NEWS" module="modules/news-traditional/news.swf" data="modules/news-traditional/news.xml" background="images/3.jpg" />
+		<link name="CONTACT" module="modules/contact/contact.swf" data="modules/contact/contactinfo.xml" background="images/3.jpg" />
+		<link name="BLOG KITA" module="url" data="http://blog.flashden.net/" />
+	</navigation>
+	
+</main>
